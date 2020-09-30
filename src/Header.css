@@ -1,0 +1,70 @@
+.header {
+  width: 100%;
+  background: url(./assets/sunset.jpg);
+  /*background: url(./assets/background.jpg);*/
+  /* background: grey;*/
+  background-size: cover;
+  background-position: bottom;
+
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+/*---------Navegacion-----------*/
+.header__nav {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  font-size: 12px;
+  height: 50px;
+}
+.header__navLink {
+  padding: 10px;
+  margin-right: 10px;
+  text-shadow: 1px 1px 1px 1px black;
+  transition: 0.3s ease-in;
+}
+.header__navLink:hover {
+  color: orange;
+}
+/*---------Info-------------*/
+.header__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header__info > h1 {
+  font-size: 90px;
+  padding: 10px;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px black;
+}
+.header__info > p {
+  padding: 10px;
+  color: lightgray;
+  font-size: 18px;
+  text-shadow: 0 0 0 1px black;
+}
+.header__infoIcons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.header__infoIcons a {
+  margin-right: 20px;
+}
+/*----------Botón-----------*/
+.header__more {
+  margin-bottom: 40px;
+  cursor: pointer;
+}
