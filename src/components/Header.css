@@ -1,8 +1,6 @@
 .header {
   width: 100%;
-  background: url(../assets/sunset.jpg);
-  /*background: url(./assets/background.jpg);*/
-  /* background: grey;*/
+  background: url(../assets/sunset1.jpg);
   background-size: cover;
   background-position: bottom;
 
@@ -94,20 +92,42 @@
   }
 }
 @media (max-width: 550px) {
+  .header {
+    background: url(../assets/sunsetm.jpg);
+    background-position: bottom;
+  }
+  .header__navLink {
+    letter-spacing: 2px;
+    padding: 12px;
+    font-size: 11px;
+  }
+  .header__info > h1 {
+    font-size: 50px;
+    margin-left: 15px;
+    padding: 20px;
+  }
+  .header__info > p {
+    font-size: 13px;
+    padding: 20px;
+  }
+}
+@media (max-width: 405px) {
+  .header__info > h1 {
+    font-size: 35px;
+    margin-left: 10px;
+    padding: 20px;
+  }
+  .header__info > p {
+    font-size: 13px;
+    padding: 20px;
+    padding-right: 30px;
+    margin-left: 30px;
+  }
   .header__navLink {
     letter-spacing: 2px;
     padding-top: 10px;
     padding-left: 3px;
     padding-right: 0;
     font-size: 11px;
-  }
-  .header__info > h1 {
-    font-size: 35px;
-    margin-left: 20px;
-    padding: 20px;
-  }
-  .header__info > p {
-    font-size: 13px;
-    padding: 20px;
   }
 }

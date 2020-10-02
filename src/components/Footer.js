@@ -3,6 +3,9 @@ import './Footer.css'
 
 import flecha from '../assets/arriba.svg'
 import { Link } from 'react-scroll'
+import ig from '../assets/ig.png'
+import lin from '../assets/lin.png'
+import gh from '../assets/gh.png'
 
 function Footer() {
     return (
@@ -24,18 +27,18 @@ function Footer() {
                 <a href="https://www.linkedin.com/in/%C3%B3scar-g%C3%B3mez-oliveira-932a951ab/"
                     target="_blank"
                     rel="noopener noreferrer">
-                    <img alt="linkedin" src="https://www.flaticon.es/svg/static/icons/svg/733/733617.svg" width="30px" height="30px" />
+                    <img alt="linkedin" src={lin} width="30px" height="30px" />
                 </a>
                 <a
                     href="https://github.com/OscarGO14"
                     target="_blank"
                     rel="noopener noreferrer">
-                    <img alt="github profile" src="https://www.flaticon.es/svg/static/icons/svg/733/733609.svg" width="30px" height="30px" /></a>
+                    <img alt="github profile" src={gh} width="30px" height="30px" /></a>
                 <a
                     href="https://www.instagram.com/y0u5_/?hl=es"
                     target="_blank"
                     rel="noopener noreferrer">
-                    <img alt="enlace" src="https://www.flaticon.es/svg/static/icons/svg/1617/1617440.svg" width="30px" height="30px" /></a>
+                    <img alt="enlace" src={ig} width="30px" height="30px" /></a>
             </div>
             <p>Web made by ÓscarGO </p>
         </div>

@@ -3,7 +3,7 @@ import './Projects.css'
 
 import wavefit from '../assets/wavefit.png'
 import amazon from '../assets/amazon.png'
-import instagram from '../assets/instagram.png'
+import instagram from '../assets/isntagram.png'
 import beaschange from '../assets/beaschange.png'
 
 function Projects() {
