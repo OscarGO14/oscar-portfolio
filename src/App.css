@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace, "opensans-bold", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   text-decoration: none;
   color: inherit;
