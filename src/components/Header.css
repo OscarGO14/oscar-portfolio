@@ -92,15 +92,14 @@
   }
 }
 @media (max-width: 550px) {
+  .header_nav {
+    width: 100%;
+  }
   .header {
     background: url(../assets/sunsetm.jpg);
     background-position: bottom;
   }
-  .header__navLink {
-    letter-spacing: 2px;
-    padding: 12px;
-    font-size: 11px;
-  }
+
   .header__info > h1 {
     font-size: 50px;
     margin-left: 15px;
@@ -110,8 +109,11 @@
     font-size: 13px;
     padding: 20px;
   }
+  .header__more {
+    padding-bottom: 40px;
+  }
 }
-@media (max-width: 405px) {
+@media (max-width: 425px) {
   .header__info > h1 {
     font-size: 35px;
     margin-left: 10px;
@@ -126,8 +128,15 @@
   .header__navLink {
     letter-spacing: 2px;
     padding-top: 10px;
-    padding-left: 3px;
-    padding-right: 0;
+    padding-left: 5px;
+    padding-right: 5px;
     font-size: 11px;
+  }
+}
+@media (max-width: 350px) {
+  .header__navLink {
+    letter-spacing: 1.5px;
+    margin: 10px 0;
+    padding: 5px;
   }
 }

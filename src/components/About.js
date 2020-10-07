@@ -10,7 +10,7 @@ function About() {
             </div>
             <section className="about__section">
                 <h2>Sobre Mí</h2>
-                <p>Me llamo Óscar, soy un desarrollador web especializado en ReactJS, pero con conocimientos full stack en NodeJS y Firebase. Actualmente busco trabajo estable además de aceptar proyectos como Free-lance e impartir clases de programación.</p>
+                <p>Me llamo Óscar, soy un desarrollador web especializado en ReactJS, con conocimientos full stack en NodeJS y Firebase. Busco nuevos retos además de aceptar proyectos como Free-lance e impartir clases de programación.</p>
                 <br />
                 <h2>Detalles de contacto:</h2>
                 <p>Óscar Gómez Oliveira</p>

@@ -32,15 +32,19 @@ function Resume() {
                 </div>
                 <div className="resume__containerInfo">
                     <h4>ReactJS</h4>
-                    <div className="progressbars"><p style={{ width: '80%' }}></p></div>
+                    <div className="progressbars"><p style={{ width: '90%' }}></p></div>
                     <h4>NodeJS</h4>
-                    <div className="progressbars"><p style={{ width: '65%' }}></p></div>
-                    <h4>CSS</h4>
                     <div className="progressbars"><p style={{ width: '75%' }}></p></div>
+                    <h4>CSS</h4>
+                    <div className="progressbars"><p style={{ width: '85%' }}></p></div>
                     <h4>MongoDB</h4>
-                    <div className="progressbars"><p style={{ width: '60%' }}></p></div>
+                    <div className="progressbars"><p style={{ width: '70%' }}></p></div>
                     <h4>GIT</h4>
-                    <div className="progressbars"><p style={{ width: '55%' }}></p></div>
+                    <div className="progressbars"><p style={{ width: '65%' }}></p></div>
+                    {/* 
+                    <h4>PHP</h4>
+                    <div className="progressbars"><p style={{ width: '65%' }}></p></div>
+                    */}
                 </div>
             </div>
 

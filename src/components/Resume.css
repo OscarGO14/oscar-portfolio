@@ -2,6 +2,8 @@
   min-height: 50vh;
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 .resume__container {
   width: 100%;
@@ -40,7 +42,7 @@
 }
 .resume__containerInfo > p {
   padding: 10px;
-  font-style: italic;
+  /* font-style: italic;*/
   color: grey;
 }
 .progressbars {

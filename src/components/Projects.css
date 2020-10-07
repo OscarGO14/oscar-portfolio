@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 30px;
+  padding-top: 25px;
 }
 .projects > h2 {
   margin-top: 20px;
