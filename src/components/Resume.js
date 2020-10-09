@@ -5,7 +5,8 @@ function Resume() {
         <div id="resume" className="resume">
             <div className="resume__container" >
                 <div className="resume__containerTitle">
-                    <h2>Educación</h2>
+                    <h2>Formación
+                    </h2>
                 </div>
                 <div className="resume__containerInfo">
                     <h3 >Universidad de la Coruña</h3>

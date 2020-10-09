@@ -75,7 +75,6 @@
   margin-bottom: 40px;
   cursor: pointer;
   transition: 300ms all;
-  margin-left: -10px;
 }
 .header__more:hover {
   transform: scale(1.2);
@@ -102,7 +101,6 @@
 
   .header__info > h1 {
     font-size: 50px;
-    margin-left: 15px;
     padding: 20px;
   }
   .header__info > p {
@@ -116,12 +114,8 @@
 @media (max-width: 425px) {
   .header__info > h1 {
     font-size: 35px;
-    margin-left: 10px;
-    padding: 20px;
   }
   .header__info > p {
-    font-size: 13px;
-    padding: 20px;
     padding-right: 30px;
     margin-left: 30px;
   }
