@@ -15,6 +15,7 @@ function Header() {
                     smooth="true"
                     spy="true"
                     offset={0}
+                    id="inicio"
                     duration={500} className="header__navLink">Inicio</Link>
                 <Link
                     to="about"
@@ -29,6 +30,7 @@ function Header() {
                     smooth="true"
                     spy="true"
                     offset={0}
+                    id="resume"
                     duration={500}
                     className="header__navLink"
                 >
@@ -47,8 +49,8 @@ function Header() {
 
             <section id="info" className="header__info" >
                 <h1>Soy Óscar GO</h1>
-                <p> Soy un <strong style={{ color: "white" }} >desarrollador web de ReactJS</strong> que vive en Galicia.</p>
-                <p>Realizo proyectos como Free-lance y doy cursos de programación.</p>
+                <p> <strong style={{ color: "white" }} >Desarrollador web de ReactJS</strong> que vive en Galicia.<br />
+               Realizo proyectos como Free-lance y doy cursos de programación.</p>
                 <div className="header__infoIcons" >
                     <a href="https://www.linkedin.com/in/%C3%B3scar-g%C3%B3mez-oliveira-932a951ab/"
                         target="_blank"
