@@ -3,9 +3,9 @@ import './Footer.css'
 
 import flecha from '../assets/arriba.svg'
 import { Link } from 'react-scroll'
-import ig from '../assets/ig.png'
-import lin from '../assets/lin.png'
-import gh from '../assets/gh.png'
+import ig from '../assets/ig1.svg'
+import lin from '../assets/lin1.svg'
+import gh from '../assets/gh1.svg'
 
 function Footer() {
     return (

@@ -21,7 +21,7 @@ function Resume() {
 
                 <div className="resume__containerInfo">
                     <h3 > Free-Lance </h3>
-                    <p>Proyecto para clínica deportiva Wavefit.</p>
+                    <p>Proyecto web para clínica deportiva Wavefit.</p>
                     <h3 >Maessa</h3>
                     <p> Ingeniero en proyecto 'Havila' de astillero Barreras (Vigo).</p>
                 </div>
