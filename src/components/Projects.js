@@ -5,6 +5,7 @@ import wavefit from '../assets/wavefit.png'
 import amazon from '../assets/amazon.png'
 import instagram from '../assets/isntagram.png'
 import beaschange from '../assets/beaschange.png'
+import jumpninja from '../assets/jumpninja.png'
 
 function Projects() {
     return (
@@ -18,7 +19,7 @@ function Projects() {
                     rel="noopener noreferrer">
                     <div className="projects__contentItems">
                         <img src={wavefit} width='300px' alt="wavefit" />
-                        <p>Proyecto completo para wavefit.es con ReactJS</p>
+                        <p>Proyecto completo para wavefit.es con ReactJS y Firebase.</p>
                     </div>
                 </a>
 
@@ -28,7 +29,7 @@ function Projects() {
                     rel="noopener noreferrer">
                     <div className="projects__contentItems">
                         <img src={amazon} width='300px' alt="Amazon clon" />
-                        <p>Amazon clon con ReactJS</p>
+                        <p>Clon de Amazon con ReactJS, React-context y autenticación con Firebase. </p>
                     </div>
                 </a>
 
@@ -37,7 +38,7 @@ function Projects() {
                     rel="noopener noreferrer">
                     <div className="projects__contentItems">
                         <img src={instagram} width='300px' alt="Instagram clon" />
-                        <p>Instagram clon con ReactJS</p>
+                        <p>Clon de Instagram con ReactJS, autenticación y base de datos.</p>
                     </div>
                 </a>
                 <a href="https://bscreact.herokuapp.com/"
@@ -45,7 +46,15 @@ function Projects() {
                     rel="noopener noreferrer">
                     <div className="projects__contentItems">
                         <img src={beaschange} width='300px' alt="Instagram clon" />
-                        <p>Blog de recetas 'BeasChange' con stack MERN</p>
+                        <p>Blog de recetas 'BeasChange' con stack MERN.</p>
+                    </div>
+                </a>
+                <a href="https://jump-ninja-b382e.web.app/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <div className="projects__contentItems">
+                        <img src={jumpninja} width='300px' alt="Instagram clon" />
+                        <p>Juego en  2D hecho con Javascript</p>
                     </div>
                 </a>
 

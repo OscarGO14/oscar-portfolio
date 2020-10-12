@@ -30,7 +30,7 @@ function Header() {
                     smooth="true"
                     spy="true"
                     offset={0}
-                    id="resume"
+                    id="resumeOption"
                     duration={500}
                     className="header__navLink"
                 >
