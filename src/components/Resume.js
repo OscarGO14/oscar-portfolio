@@ -1,5 +1,15 @@
 import React from 'react'
 import './Resume.css'
+//imagenes
+import react from "../assets/react.svg"
+import nodejs from "../assets/nodejs.svg"
+import javascript from "../assets/javascript.svg"
+import git from "../assets/git.png"
+import mongodb from "../assets/mongodb.png"
+import css from "../assets/css.svg"
+import sass from "../assets/sass.svg"
+import firebase from "../assets/firebase.png"
+
 function Resume() {
     return (
         <div id="resume" className="resume">
@@ -27,7 +37,7 @@ function Resume() {
                 </div>
             </div>
             <hr style={{ width: '70%', margin: '0 auto', color: 'lightgray' }} />
-            <div className="resume__container" >
+            {/* <div className="resume__container" >
                 <div className="resume__containerTitle">
                     <h2>Habilidades</h2>
                 </div>
@@ -42,14 +52,37 @@ function Resume() {
                     <div className="progressbars"><p style={{ width: '70%' }}></p></div>
                     <h4>GIT</h4>
                     <div className="progressbars"><p style={{ width: '65%' }}></p></div>
-                    {/* 
-                    <h4>PHP</h4>
-                    <div className="progressbars"><p style={{ width: '65%' }}></p></div>
-                    */}
+
+                </div>
+            </div> */}
+            <div className="resume__container" >
+                <div className="resume__containerTitle">
+                    <h2>Habilidades</h2>
+                </div>
+                <div className="resume__containerInfo">
+
+                    <div className="resume__containerTechs">
+                        <img width="100px" height="100px" src={javascript} alt="javascript" />
+                        <img width="100px" height="100px" src={react} alt="react" />
+                        <img width="100px" height="100px" src={nodejs} alt="nodejs" />
+                    </div>
+                    <div className="resume__containerTechs">
+
+                    </div>
+                    <div className="resume__containerTechs">
+                        <img width="100px" height="100px" src={css} alt="css3" />
+                        <img width="100px" height="100px" src={sass} alt="sass" />
+                    </div>
+                    <div className="resume__containerTechs">
+                        <img width="100px" height="100px" src={mongodb} className="circle" alt="mongodb" />
+                        <img width="100px" height="100px" src={firebase} alt="firebase" />
+                        <img width="100px" height="100px" src={git} alt="git" />
+                    </div>
+
                 </div>
             </div>
 
-        </div>
+        </div >
     )
 }
 

@@ -29,7 +29,7 @@ function Contacto() {
 
     return (
         <div id="contacto" className="contacto" >
-            <h2>Contacta conmigo!</h2>
+            <h2>¡Contacta conmigo!</h2>
             <form className="contacto__form" >
 
                 <p>Tus datos de contacto:</p>
