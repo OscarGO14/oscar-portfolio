@@ -3,7 +3,7 @@ import './Resume.css'
 //imagenes
 import react from "../assets/react.svg"
 import nodejs from "../assets/nodejs.svg"
-import javascript from "../assets/javascript.svg"
+import typescript from "../assets/typescript.svg"
 import git from "../assets/git.png"
 import mongodb from "../assets/mongodb.png"
 import css from "../assets/css.svg"
@@ -31,30 +31,13 @@ function Resume() {
 
                 <div className="resume__containerInfo">
                     <h3 > Free-Lance </h3>
-                    <p>Proyecto web para clínica deportiva Wavefit.</p>
+                    <p>Web para clínica deportiva Wavefit, en Agosto 2020. </p>
                     <h3 >Maessa</h3>
-                    <p> Ingeniero en proyecto 'Havila' de astillero Barreras (Vigo).</p>
+                    <p> Ingeniero en el proyecto 'Havila' del astillero Barreras (Vigo), en 2019.</p>
                 </div>
             </div>
             <hr style={{ width: '70%', margin: '0 auto', color: 'lightgray' }} />
-            {/* <div className="resume__container" >
-                <div className="resume__containerTitle">
-                    <h2>Habilidades</h2>
-                </div>
-                <div className="resume__containerInfo">
-                    <h4>ReactJS</h4>
-                    <div className="progressbars"><p style={{ width: '90%' }}></p></div>
-                    <h4>NodeJS</h4>
-                    <div className="progressbars"><p style={{ width: '75%' }}></p></div>
-                    <h4>CSS</h4>
-                    <div className="progressbars"><p style={{ width: '85%' }}></p></div>
-                    <h4>MongoDB</h4>
-                    <div className="progressbars"><p style={{ width: '70%' }}></p></div>
-                    <h4>GIT</h4>
-                    <div className="progressbars"><p style={{ width: '65%' }}></p></div>
 
-                </div>
-            </div> */}
             <div className="resume__container" >
                 <div className="resume__containerTitle">
                     <h2>Habilidades</h2>
@@ -62,7 +45,7 @@ function Resume() {
                 <div className="resume__containerInfo">
 
                     <div className="resume__containerTechs">
-                        <img width="100px" height="100px" src={javascript} alt="javascript" />
+                        <img width="100px" height="100px" src={typescript} alt="typescript" />
                         <img width="100px" height="100px" src={react} alt="react" />
                         <img width="100px" height="100px" src={nodejs} alt="nodejs" />
                     </div>

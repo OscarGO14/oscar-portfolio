@@ -47,6 +47,8 @@
 }
 .resume__containerTechs > img {
   margin: 10px;
+  box-shadow: 1px 1px 10px rgb(161, 161, 161);
+  border-radius: 97px;
 }
 .circle {
   border-radius: 99px;
@@ -95,5 +97,16 @@
     margin: 5px;
     width: 60px;
     height: 60px;
+  }
+}
+.resume__containerTechs > img:hover {
+  animation: rotar 0.3s linear;
+}
+@keyframes rotar {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
