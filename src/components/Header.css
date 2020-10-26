@@ -1,6 +1,7 @@
 .header {
   width: 100%;
   background: url(../assets/sunset1.jpg);
+  background: transparent;
   background-size: cover;
   background-position: bottom;
 
@@ -10,6 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  z-index: 10;
 }
 /*---------Navegacion-----------*/
 .header__nav {
@@ -52,7 +54,7 @@
   padding: 10px;
   color: lightgray;
   font-size: 18px;
-  text-shadow: 0 0 0 1px black;
+  text-shadow: 1px 1px 1px black;
 }
 .header__infoIcons {
   margin-top: 20px;
@@ -94,10 +96,10 @@
   .header_nav {
     width: 100%;
   }
-  .header {
+  /*.header {
     background: url(../assets/sunsetm.jpg);
     background-position: bottom;
-  }
+  }*/
 
   .header__info > h1 {
     font-size: 50px;

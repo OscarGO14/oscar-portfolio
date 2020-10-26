@@ -9,8 +9,143 @@
 }
 html {
   scroll-behavior: smooth;
+  background: url(./assets/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 a {
   text-decoration: none;
   color: inherit;
+}
+.app > h1 {
+  position: absolute;
+  top: 60vh;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+#card {
+  position: absolute;
+  top: 15vh;
+  left: 40%;
+  width: 300px;
+  height: 300px;
+  background-image: url(https://images.pexels.com/photos/684441/pexels-photo-684441.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-684441.jpg&fm=jpg);
+  background-size: 100vh;
+  background-position: center;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fly {
+  animation: fly 1s infinite linear;
+}
+.scales {
+  animation: scales 10s linear infinite;
+}
+.dimensiones {
+  animation: dimensiones 3s linear forwards;
+}
+@keyframes fly {
+  0% {
+    transform: translateY(-35vh) scale(1);
+  }
+  50% {
+    transform: translateY(-35vh) scale(0.9);
+  }
+  100% {
+    transform: translateY(-35vh) scale(1);
+  }
+}
+@keyframes dimensiones {
+  0% {
+    transform: translateY(-30vh) scale(1) rotateY(0) translateZ(250px);
+  }
+  50% {
+    transform: translateY(0) scale(1) rotateY(180deg) translateZ(500px);
+  }
+  100% {
+    transform: translateY(0) scale(0.1) rotateY(360deg) translateZ(250px);
+  }
+}
+@keyframes scales {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  90% {
+    transform: rotateZ(335deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@media (max-width: 1200px) {
+  #card {
+    height: 200px;
+    width: 200px;
+    left: 40%;
+  }
+  .app > h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  #card {
+    height: 200px;
+    width: 200px;
+    left: 38%;
+  }
+  .app > h1 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  #card {
+    height: 200px;
+    width: 200px;
+    left: 35%;
+  }
+  .app > h1 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 426px) {
+  #card {
+    left: 28%;
+  }
+  .app > h1 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 375px) {
+  #card {
+    left: 24%;
+  }
+  .app > h1 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 321px) {
+  #card {
+    left: 20%;
+  }
+  .app > h1 {
+    font-size: 15px;
+  }
+}
+@media (min-width: 2000px) {
+  #card {
+    left: 45%;
+  }
 }

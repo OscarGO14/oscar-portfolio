@@ -4,6 +4,7 @@
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 30px;
+  background-color: white;
 }
 .resume__container {
   width: 100%;
