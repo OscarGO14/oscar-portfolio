@@ -15,7 +15,7 @@
 }
 /*---------Navegacion-----------*/
 .header__nav {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -38,27 +38,31 @@
 }
 /*---------Info-------------*/
 .header__info {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .header__info > h1 {
+  width: 80%;
+  text-align: center;
   font-size: 90px;
   padding: 10px;
   font-weight: 600;
   text-shadow: 1px 1px 1px black;
 }
 .header__info > p {
-  margin-left: 20px;
-  padding: 10px;
+  width: 80%;
+  text-align: center;
   color: lightgray;
   font-size: 18px;
   text-shadow: 1px 1px 1px black;
 }
 .header__infoIcons {
+  width: 80%;
   margin-top: 20px;
-  padding-left: 20px;
+  text-align: center;
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
@@ -66,8 +70,11 @@
   cursor: pointer;
 }
 .header__infoIcons a {
-  margin-right: 30px;
+  padding: 20px;
   transition: 300ms all;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.068);
+  box-shadow: 0 0 20px -10px white;
 }
 .header__infoIcons > a:hover {
   transform: scale(1.2);
@@ -77,6 +84,9 @@
   margin-bottom: 40px;
   cursor: pointer;
   transition: 300ms all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header__more:hover {
   transform: scale(1.2);

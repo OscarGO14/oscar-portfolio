@@ -17,9 +17,16 @@ a {
   text-decoration: none;
   color: inherit;
 }
-.app > h1 {
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100vh;
   position: absolute;
-  top: 60vh;
+}
+.landingPage > h1 {
   width: 100%;
   text-align: center;
   font-size: 25px;
@@ -29,9 +36,6 @@ a {
 }
 
 #card {
-  position: absolute;
-  top: 15vh;
-  left: 40%;
   width: 300px;
   height: 300px;
   background-image: url(https://images.pexels.com/photos/684441/pexels-photo-684441.jpeg?cs=srgb&dl=pexels-sevenstorm-juhaszimrus-684441.jpg&fm=jpg);
@@ -90,13 +94,13 @@ a {
     transform: rotateZ(360deg);
   }
 }
+
 @media (max-width: 1200px) {
   #card {
     height: 200px;
     width: 200px;
-    left: 40%;
   }
-  .app > h1 {
+  .landingPage > h1 {
     font-size: 20px;
   }
 }
@@ -104,9 +108,8 @@ a {
   #card {
     height: 200px;
     width: 200px;
-    left: 38%;
   }
-  .app > h1 {
+  .landingPage > h1 {
     font-size: 18px;
   }
 }
@@ -114,38 +117,23 @@ a {
   #card {
     height: 200px;
     width: 200px;
-    left: 35%;
   }
-  .app > h1 {
+  .landingPage > h1 {
     font-size: 18px;
   }
 }
 @media (max-width: 426px) {
-  #card {
-    left: 28%;
-  }
-  .app > h1 {
+  .landingPage > h1 {
     font-size: 15px;
   }
 }
 @media (max-width: 375px) {
-  #card {
-    left: 24%;
-  }
-  .app > h1 {
+  .landingPage > h1 {
     font-size: 15px;
   }
 }
 @media (max-width: 321px) {
-  #card {
-    left: 20%;
-  }
-  .app > h1 {
+  .landingPage > h1 {
     font-size: 15px;
-  }
-}
-@media (min-width: 2000px) {
-  #card {
-    left: 45%;
   }
 }

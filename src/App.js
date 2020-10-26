@@ -25,8 +25,11 @@ function App() {
 
   return (
     <div onClick={loadPage} className="app">
-      {!condition && <h1>Click en la Luna para ver "Landing Page"</h1>}
-      <Home cohete={cohete} fly={fly} />
+      <div className="landingPage">
+        <Home cohete={cohete} fly={fly} />
+        {!condition && <h1>Click en la Luna para ver "Landing Page"</h1>}
+        {condition && <h1></h1>}
+      </div>
       { condition &&
         <div>
           <Zoom>
