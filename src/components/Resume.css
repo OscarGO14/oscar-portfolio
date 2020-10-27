@@ -101,13 +101,20 @@
   }
 }
 .resume__containerTechs > img:hover {
-  animation: rotar 0.3s linear;
+  animation: rotar 0.5s linear;
+  cursor: pointer;
 }
 @keyframes rotar {
   0% {
     transform: rotate(0);
   }
+  33% {
+    transform: rotate(10deg);
+  }
+  66% {
+    transform: rotate(-10deg);
+  }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
