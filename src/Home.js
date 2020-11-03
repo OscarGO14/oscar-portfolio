@@ -1,16 +1,17 @@
 import React from 'react'
-
-export const Home = ({ fly, cohete }) => {
+import img from './assets/cohete.svg'
+export const Home = ({ cohete }) => {
 
     return (
-        <div onClick={fly} className="home">
+        <div className="home">
             <div class="scales" id="card">
                 <img
                     id="cohete"
                     className={cohete}
-                    height="50%"
-                    src="https://www.flaticon.es/svg/static/icons/svg/610/610290.svg"
+                    height="40%"
+                    src={img}
                     alt="cohete"
+
                 />
             </div>
         </div>

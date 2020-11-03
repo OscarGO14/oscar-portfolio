@@ -55,8 +55,8 @@
 .header__info > p {
   width: 80%;
   text-align: center;
-  color: lightgray;
-  font-size: 18px;
+  color: white;
+  font-size: 20px;
   text-shadow: 1px 1px 1px black;
 }
 .header__infoIcons {
@@ -98,7 +98,7 @@
     font-size: 60px;
   }
   .header__info > p {
-    font-size: 13px;
+    font-size: 15px;
     padding: 20px;
   }
 }
@@ -106,17 +106,13 @@
   .header_nav {
     width: 100%;
   }
-  /*.header {
-    background: url(../assets/sunsetm.jpg);
-    background-position: bottom;
-  }*/
 
   .header__info > h1 {
     font-size: 50px;
     padding: 20px;
   }
   .header__info > p {
-    font-size: 13px;
+    font-size: 15px;
     padding: 20px;
   }
   .header__more {

@@ -13,13 +13,10 @@ function App() {
 
   // Landing
   const [cohete, setCohete] = useState('fly')
-  const fly = () => {
-    setCohete('dimensiones')
-  }
-
-
   const [condition, setCondition] = useState(null)
+
   const loadPage = () => {
+    setCohete('dimensiones')
     setTimeout(() => setCondition(true), 3000)
   }
 
@@ -27,9 +24,9 @@ function App() {
     <div onClick={loadPage} className="app">
       <div className="landingPage">
         {!condition && <h1 style={{ position: 'absolute', top: '2vh' }} >Portfolio de OscarGO</h1>}
-        <Home cohete={cohete} fly={fly} />
-        {!condition && <h1>Click en la Luna para ver "Landing Page"</h1>}
-        {condition && <h1></h1>}
+        <Home cohete={cohete} />
+        {!condition && <h1>Haz click para ver "Landing Page"</h1>}
+        {condition && <h1> </h1>}
       </div>
       { condition &&
         <div>

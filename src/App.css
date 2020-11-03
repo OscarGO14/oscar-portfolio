@@ -99,6 +99,7 @@ a {
   #card {
     height: 250px;
     width: 250px;
+    background-size: 100vh;
   }
   .landingPage > h1 {
     font-size: 20px;

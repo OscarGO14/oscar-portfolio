@@ -10,8 +10,9 @@ function About() {
             </div>
             <section className="about__section">
                 <h2>Sobre Mí</h2>
-                <p>Soy un desarrollador web especializado en Javascript y su ecosistema. Domino ReactJS y lo combino habitualmente con NodeJS para el backend, y MongoDB como base de datos, aunque recientemente he realizado proyectos con el BAAS de Google, Firebase.
-                    <p>
+                <p>Soy un desarrollador web especializado en Javascript y PHP. Domino diferentes frameworks de JavaScript como React o Vue para el frontend y los combino habitualmente con NodeJS o PHP para el backend.
+                MongoDB y MySQL son las alternativas que manejo para bases de datos junto con Firebase.
+               <p>
                         Busco nuevos retos además de aceptar proyectos como Free-lance e impartir clases de programación.</p>
                 </p>
                 <br />
