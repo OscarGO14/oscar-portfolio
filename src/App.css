@@ -9,10 +9,10 @@
 }
 html {
   scroll-behavior: smooth;
-  background: url(./assets/space.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+  /*background: url(./assets/sunset1.jpg);
+  background-size: cover;*/
 }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -139,14 +139,14 @@ a {
 }
 @media (max-width: 500px) {
   html {
-    background: url(./assets/spacem.jpg);
+    background: url(./assets/sunsetm.jpg);
     background-size: cover;
     background-attachment: fixed;
   }
 }
 @media (min-width: 2000px) {
   html {
-    background: url(./assets/space4k.jpg);
+    background: url(./assets/sunset1.jpg);
     background-size: cover;
     background-attachment: fixed;
   }
