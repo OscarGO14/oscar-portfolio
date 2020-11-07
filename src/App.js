@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 //import { Home } from './Home';
-import { Zoom } from 'react-reveal'
+
 
 function App() {
 
@@ -30,9 +30,7 @@ function App() {
       </div>
       { condition &&*/}
       <div>
-        <Zoom>
-          <Header />
-        </Zoom>
+        <Header />
         <About />
         <Resume />
         <Projects />

@@ -11,7 +11,6 @@ export const Home = ({ cohete }) => {
                     height="40%"
                     src={img}
                     alt="cohete"
-
                 />
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Contacto.css'
 import { db } from '../firebase'
-import firebase from 'firebase'
+
 
 function Contacto() {
 
@@ -9,16 +9,15 @@ function Contacto() {
     const [mail, setMail] = useState('')
     const [message, setMessage] = useState('')
 
-
-
     const sendMail = (e) => {
         e.preventDefault()
 
-        db.collection('emails').add({
-            name,
-            mail,
-            message,
-            timestamp: firebase.firestore.FieldValue.serverTimestamp()
+        db.collection('mails').add({
+            to: 'ogo53140@gmail.com',
+            message: {
+                subject: name,
+                text: `mail:${mail}, mensaje: ${message}`
+            },
         })
 
         alert('Mail enviado con éxito. Pronto me pondré en contacto contigo.')
