@@ -48,8 +48,8 @@
 }
 .resume__containerTechs > img {
   margin: 10px;
-  box-shadow: 1px 1px 10px rgb(161, 161, 161);
-  border-radius: 97px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 99px;
 }
 .circle {
   border-radius: 99px;

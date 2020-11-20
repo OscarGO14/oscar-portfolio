@@ -40,7 +40,7 @@ function Footer() {
                     rel="noopener noreferrer">
                     <img alt="enlace" src={ig} width="30px" height="30px" /></a>
             </div>
-            <p>Web made by ÓscarGO </p>
+            <p>Web made by ÓscarGO de GOW-WEB</p>
         </div>
     )
 }
