@@ -10,9 +10,8 @@ function About() {
             </div>
             <section className="about__section">
                 <h2>Sobre Mí</h2>
-                <p>Soy un desarrollador web especializado en JavaScript y PHP. Utilizo diferentes frameworks como React o Vue y los combino habitualmente con PHP o Firebase para el backend.
-
-               <p>Busco nuevos retos además de aceptar proyectos como Free-lance e impartir clases de programación.</p>
+                <p>Soy un desarrollador de software especializado en JavaScript. Utilizo tecnologías como React, Node y Firebase tanto para el desarrollo web como de apps.
+               <p>Trabajo como programador front para atSistemas.</p>
                 </p>
                 <br />
                 <h2>Detalles de contacto:</h2>

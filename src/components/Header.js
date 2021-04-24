@@ -49,8 +49,8 @@ function Header() {
 
             <section id="info" className="header__info" >
                 <h1>Soy Óscar GO</h1>
-                <p> <strong style={{ color: "white" }} >Desarrollador web</strong> que vive en Galicia.<br />
-               Realizo proyectos como Free-lance y doy cursos de programación.</p>
+                <p> <strong style={{ color: "white" }} >Desarrollador de software</strong> que vive en Galicia.<br />
+               Actualmente trabajo para atSistemas.</p>
                 <div className="header__infoIcons" >
                     <a href="https://www.linkedin.com/in/%C3%B3scar-g%C3%B3mez-oliveira-932a951ab/"
                         target="_blank"

@@ -21,15 +21,13 @@ function Resume() {
                 </div>
 
                 <div className="resume__containerInfo">
-                    <h3 > Desarrollador WEB Free-Lance </h3>
+                    <h3 > Desarrollador de software atSistemas </h3>
+                    <p> Diferentes proyectos con Javascript y React </p>
+                    <p> Programación front-end</p>
+                    <h3> Desarrollador web free-lance</h3>
                     <p>Web para 'Relojería Joyería Gómez en Vilagarcía, Noviembre 2020</p>
                     <p>Web para fotógrafo profesional "Pedro Silvestre",  en Octubre 2020. </p>
                     <p>Web para clínica deportiva "Wavefit", en Agosto 2020. </p>
-                    <p>Funciones desempeñadas: </p>
-                    <p>Desarrollo frontend con el framework ReactJS/GatsbyJS.
-                    <br />Maquetación con Flexbox y Grid de CSS3.
-                    <br />Desarrollo Backend con Firebase.</p>
-                    <p> Soporte Técnico al cliente.</p>
                     <h3 >Maessa</h3>
                     <p> Ingeniero en el proyecto 'Havila' del astillero Barreras (Vigo), en 2019.</p>
                 </div>

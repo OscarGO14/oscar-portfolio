@@ -9,7 +9,7 @@ import silvestre from '../assets/silvestre.png'
 function Projects() {
     return (
         <div id="projects" className="projects">
-            <h2>Mis últimos trabajos</h2>
+            <h2>Proyectos free-lance</h2>
             <section className="projects__content" >
 
                 <a
